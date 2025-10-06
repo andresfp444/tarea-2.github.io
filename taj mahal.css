@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    place-items: center;
+     font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+model-viewer{ 
+    display: flex;
+    width: 100vw;
+    height:100vh;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #facc15, #f87171);
+  color: #0f172a;
+  padding: 0.6rem 1rem;
+  border-radius: 0.8rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
